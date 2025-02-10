@@ -39,11 +39,14 @@
     "node-sass": "^9.0.0",
     "optimize-css-assets-webpack-plugin": "^6.0.1",
     "sass": "^1.72.0",
-    "sass-loader": "^14.1.1",
+    "sass-loader": "^12.6.0",
     "style-loader": "^3.3.4",
     "terser-webpack-plugin": "^5.3.11",
     "webpack": "^5.90.3",
     "webpack-dev-server": "^5.0.2",
     "workbox-webpack-plugin": "^7.0.0"
+  },
+  "jest": {
+    "testEnvironment": "jsdom"
   }
 }
